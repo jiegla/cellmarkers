@@ -1,0 +1,77 @@
+species,tumor_type,major_type,subtype,major_markers,subtype_markers,exclusion_markers,source_id,source_reference,source_row,review_status,curation_notes,original_major_type
+human,unspecified,CD4_T,CD4_Naive,CD3D;TRAC;CD4,CCR7;LEF1;SELL,,user_xlsx_2026-10-11,,2,unverified,,CD4_T
+human,unspecified,CD4_T,CD4_Tcm,CD3D;TRAC;CD4,PTGER2;CCR6;CAPG,,user_xlsx_2026-10-11,,3,unverified,,CD4_T
+human,unspecified,CD4_T,CD4_Teff,CD3D;TRAC;CD4,FGFBP2;CX3CR1;GZMA,,user_xlsx_2026-10-11,,4,unverified,,CD4_T
+human,unspecified,CD4_T,CD4_Tem_Th1_like,CD3D;TRAC;CD4,GZMK;BHLHE40;CCL5,,user_xlsx_2026-10-11,,5,unverified,,CD4_T
+human,unspecified,CD4_T,CD4_Th1_like,CD3D;TRAC;CD4,PDCD1;CXCL13;ICOS,,user_xlsx_2026-10-11,,6,needs_review,CXCL13/PDCD1/ICOS may indicate Tfh-like or activated/exhausted CD4 state; Th1 assignment requires further evidence.,CD4_T
+human,unspecified,CD4_T,CD4_Treg,CD3D;TRAC;CD4,FOXP3;IKZF2;CCR4,,user_xlsx_2026-10-11,,7,unverified,,CD4_T
+human,unspecified,CD4_T,CD4_Cycling,CD3D;TRAC;CD4,MKI67;TOP2A;STMN1,,user_xlsx_2026-10-11,,8,unverified,,CD4_T
+human,unspecified,CD8_T,CD8_Naive,CD3D;TRAC;CD8A,CCR7;TCF7;SELL,,user_xlsx_2026-10-11,,9,unverified,,CD8_T
+human,unspecified,CD8_T,CD8_Tcm,CD3D;TRAC;CD8A,GPR183;S1PR1;CCL5,,user_xlsx_2026-10-11,,10,unverified,,CD8_T
+human,unspecified,CD8_T,CD8_Tem,CD3D;TRAC;CD8A,GZMK;TNFSF9;CXCR4,,user_xlsx_2026-10-11,,11,unverified,,CD8_T
+human,unspecified,CD8_T,CD8_Tex,CD3D;TRAC;CD8A,TIGIT;CXCL13;CTLA4,,user_xlsx_2026-10-11,,12,unverified,,CD8_T
+human,unspecified,CD8_T,CD8_Temra,CD3D;TRAC;CD8A,CX3CR1;FGFBP2;FCGR3A,,user_xlsx_2026-10-11,,13,unverified,,CD8_T
+human,unspecified,CD8_T,CD8_Trm,CD3D;TRAC;CD8A,ITGAE;XCL1;MYADM,,user_xlsx_2026-10-11,,14,unverified,,CD8_T
+human,unspecified,CD8_T,CD8_MAIT,CD3D;TRAC;CD8A,SLC4A10;KLRB1;ZBTB16,,user_xlsx_2026-10-11,,15,unverified,,CD8_T
+human,unspecified,CD8_T,CD8_Cycling,CD3D;TRAC;CD8A,MKI67;TOP2A;STMN1,,user_xlsx_2026-10-11,,16,unverified,,CD8_T
+human,unspecified,NK,NK_CD16,NKG7;GNLY;KLRD1;FCER1G,CX3CR1;FGFBP2;FCGR3A;PRF1;GZMB,,user_xlsx_2026-10-11,,17,unverified,,NK
+human,unspecified,NK,NK_CD16_SELL,NKG7;GNLY;KLRD1,SELL;KLRC1;TCF7;IL7R;GPR183,,user_xlsx_2026-10-11,,18,needs_review,Subtype name CD16 is not supported by FCGR3A in the supplied marker columns; inspect expression.,NK
+human,unspecified,NK,NK_CD16_CCL4,NKG7;GNLY;KLRD1,CCL3;CCL4;CCL4L2;IFNG;TNF,,user_xlsx_2026-10-11,,19,unverified,,NK
+human,unspecified,NK,NK_GZMK,NKG7;GNLY;KLRD1,GZMK;XCL1;XCL2;CCL5;CD27,,user_xlsx_2026-10-11,,20,unverified,,NK
+human,unspecified,NK,NK_GZMK_SELL,NKG7;GNLY;KLRD1,IL7R;GPR183;IGFBP4;SELL;TCF7,,user_xlsx_2026-10-11,,21,unverified,,NK
+human,unspecified,NK,NK_CD16_KLF12,NKG7;GNLY;KLRD1;FCGR3A,KLF12;RUNX1;NEAT1;CX3CR1;FGFBP2,,user_xlsx_2026-10-11,,22,unverified,,NK
+human,unspecified,NK,NK_Cycling,NKG7;GNLY;KLRD1,MKI67;STMN1;CENPF;TOP2A;TYMS,,user_xlsx_2026-10-11,,23,unverified,,NK
+human,unspecified,NK,NKT_GZMK,CD3D;TRAC;CD3E,GZMK;CCR7;CD6;CD5;IL7R,,user_xlsx_2026-10-11,,24,needs_review,"NKT placed under NK in source, but CD3D/TRAC/CD3E indicate T-lineage; confirm NKT identity with additional evidence.",NK
+human,unspecified,NK,NKT,CD3D;TRAC;CD3E,LAG3;PTMS;HLA-DRA;CD5;CD6,,user_xlsx_2026-10-11,,25,needs_review,"NKT placed under NK in source, but CD3D/TRAC/CD3E indicate T-lineage; confirm NKT identity with additional evidence.",NK
+human,unspecified,ILC,ILC,IL7R;KIT;KLRB1,GATA3;IL4I1;KIT;AREG;RORA,,user_xlsx_2026-10-11,,26,unverified,,ILC
+human,unspecified,B cell,NaiveB,CD79A,IGHD;YBX3;FCER2,,user_xlsx_2026-10-11,,27,unverified,,B cell
+human,unspecified,B cell,ACB_EGR1,CD79A,EGR1;TNF;IER2,,user_xlsx_2026-10-11,,28,unverified,,B cell
+human,unspecified,B cell,ACB_NR4A2,CD79A,NR4A2;ZNF331;NR4A3,,user_xlsx_2026-10-11,,29,unverified,,B cell
+human,unspecified,B cell,GCB_Cycling,CD79A,MKI67;TOP2A;STMN1,,user_xlsx_2026-10-11,,30,unverified,,B cell
+human,unspecified,B cell,GCB,CD79A,LMO2;MARCKSL1;GMDS,,user_xlsx_2026-10-11,,31,unverified,,B cell
+human,unspecified,B cell,AtmB,CD79A,ITGAX;SOX5;ZEB2,,user_xlsx_2026-10-11,,32,unverified,,B cell
+human,unspecified,B cell,MemoryB,CD79A,CD27;AIM2;ITGB1,,user_xlsx_2026-10-11,,33,unverified,,B cell
+human,unspecified,B cell,Plasma,CD79A,JCHAIN;XBP1;MZB1,,user_xlsx_2026-10-11,,34,unverified,,B cell
+human,unspecified,Macrophage,Mono_CD14,VCAN;FCN1,CD14;S100A12;SELL,,user_xlsx_2026-10-11,,35,needs_review,Monocyte subtype nested under source Macrophage category; consider separate Monocyte major class after review.,Macrophage
+human,unspecified,Macrophage,Mono_CD16,VCAN;FCN1,FCGR3A;IFITM2;IFITM3,,user_xlsx_2026-10-11,,36,needs_review,Monocyte subtype nested under source Macrophage category; consider separate Monocyte major class after review.,Macrophage
+human,unspecified,Macrophage,Mono_IL1B,VCAN;FCN1,IL1B;EREG;THBS1,,user_xlsx_2026-10-11,,37,needs_review,Monocyte subtype nested under source Macrophage category; consider separate Monocyte major class after review.,Macrophage
+human,unspecified,Macrophage,Mac_VEGFA,C1QA;C1QB,VEGFA;GPR183;CD69,,user_xlsx_2026-10-11,,38,unverified,,Macrophage
+human,unspecified,Macrophage,Mac_FOLR2,C1QA;C1QB,FOLR2;SELENOP;A2M,,user_xlsx_2026-10-11,,39,unverified,,Macrophage
+human,unspecified,Macrophage,Mac_MMP9,C1QA;C1QB,MMP9;SPP1;CHI3L1,,user_xlsx_2026-10-11,,40,unverified,,Macrophage
+human,unspecified,Macrophage,Macrophage,C1QA;C1QB,NEAT1;SEMA4A;LRMDA,,user_xlsx_2026-10-11,,41,unverified,,Macrophage
+human,unspecified,Macrophage,Mac_Cycling,C1QA;C1QB,MKI67;TOP2A;STMN1,,user_xlsx_2026-10-11,,42,unverified,,Macrophage
+human,unspecified,Macrophage,Alveolar_Mac,C1QA;C1QB,MCEMP1;FABP4;VSIG4,,user_xlsx_2026-10-11,,43,unverified,,Macrophage
+human,unspecified,DC cell,cDC_CD1A,HLA-DRA;HLA-DPA1;HLA-DPB1;CD74,CD1A;CD207;FCGBP;CD1E,,user_xlsx_2026-10-11,,44,needs_review,CD1A/CD207-positive DC phenotype may overlap Langerhans-like cells; inspect discriminating markers.,DC cell
+human,unspecified,DC cell,cDC_CD1C,HLA-DRA;CD74;ITGAX;IRF4,CD1C;FCER1A;CLEC10A;CD1E;CCL17,,user_xlsx_2026-10-11,,45,unverified,,DC cell
+human,unspecified,DC cell,cDC_CLEC9A,HLA-DRA;CD74;ITGAX;BATF3,CLEC9A;XCR1;CADM1;IDO1;IRF8,,user_xlsx_2026-10-11,,46,unverified,,DC cell
+human,unspecified,DC cell,cDC_LAMP3,HLA-DRA;CD74;CCR7;FSCN1,LAMP3;CCR7;CCL22;CCL19;FSCN1,,user_xlsx_2026-10-11,,47,unverified,,DC cell
+human,unspecified,DC cell,cDC_Cycling,HLA-DRA;CD74;ITGAX,MKI67;TOP2A;STMN1;CENPF;TYMS,,user_xlsx_2026-10-11,,48,unverified,,DC cell
+human,unspecified,DC cell,pDC,HLA-DRA;CD74;IRF7;TCF4,LILRA4;JCHAIN;CLEC4C;GZMB;IL3RA,,user_xlsx_2026-10-11,,49,unverified,,DC cell
+human,unspecified,Neutrophil,Neu_CAMP,CSF3R;FCGR3B;CXCR2,DEFA3;LCN2;CAMP,,user_xlsx_2026-10-11,,50,unverified,,Neutrophil
+human,unspecified,Neutrophil,Neu_CXCL8,CSF3R;FCGR3B;CXCR2,CXCL8;IL1B;FRMD4B,,user_xlsx_2026-10-11,,51,unverified,,Neutrophil
+human,unspecified,Neutrophil,Neu_CXCL8_CXCL4,CSF3R;FCGR3B;CXCR2,CCL4;CCL3;CXCL2,,user_xlsx_2026-10-11,,52,needs_review,"Name contains CXCL4, but subtype markers are CCL4/CCL3/CXCL2; inspect cluster name and markers.",Neutrophil
+human,unspecified,Neutrophil,Neu_HLA-DRA,CSF3R;FCGR3B;CXCR2,HLA-DRA;HLA-DPA1;HLA-DQB1,,user_xlsx_2026-10-11,,53,unverified,,Neutrophil
+human,unspecified,Neutrophil,Neu_ISG15,CSF3R;FCGR3B;CXCR2,ISG15;RSAD2;IFIT1,,user_xlsx_2026-10-11,,54,unverified,,Neutrophil
+human,unspecified,Neutrophil,Neu_S100A12,CSF3R;FCGR3B;CXCR2,S100A12;S100A6;S100A4,,user_xlsx_2026-10-11,,55,unverified,,Neutrophil
+human,unspecified,Neutrophil,Neu_SLC8A1,CSF3R;FCGR3B;CXCR2,SLC8A1;SLC15A4;HIF1A,,user_xlsx_2026-10-11,,56,unverified,,Neutrophil
+human,unspecified,Neutrophil,Neu_TXNIP,CSF3R;FCGR3B;CXCR2,TXNIP;LTB;MALAT1,,user_xlsx_2026-10-11,,57,unverified,,Neutrophil
+human,unspecified,Epithelial,AT2,EPCAM,SFTPB;SFTPA1;SFTPA2,,user_xlsx_2026-10-11,,58,unverified,,Epithelial
+human,unspecified,Epithelial,Basal,EPCAM,KRT15;KRT5;EGR1,,user_xlsx_2026-10-11,,59,unverified,,Epithelial
+human,unspecified,Epithelial,Ciliated,EPCAM,CAPS;TPPP3;DNAH12,,user_xlsx_2026-10-11,,60,unverified,,Epithelial
+human,unspecified,CAF,myCAF_MMP11,DCN;COL1A1;FAP,MMP11;MMP1;PDPN,,user_xlsx_2026-10-11,,61,unverified,,CAF
+human,unspecified,CAF,myCAF,DCN;COL1A1;FAP,APOE;SERPINE1;COL18A1,,user_xlsx_2026-10-11,,62,unverified,,CAF
+human,unspecified,CAF,myCAF_PRKG1,DCN;COL1A1;FAP,PRKG1;SEMA4A;INHBA,,user_xlsx_2026-10-11,,63,unverified,,CAF
+human,unspecified,CAF,iCAF_PTGDS,DCN;COL1A1;FAP,PTGDS;CCL2;VEGFD,,user_xlsx_2026-10-11,,64,unverified,,CAF
+human,unspecified,CAF,iCAF_PLA2G2A,DCN;COL1A1;FAP,PLA2G2A;CXCL14;VEGFB,,user_xlsx_2026-10-11,,65,unverified,,CAF
+human,unspecified,Endothelial,EC_Lymphatics,PECAM1;CLDN5;FLT1,PROX1;PDPN;LYVE1,,user_xlsx_2026-10-11,,66,unverified,Spelling standardized from Endophial to Endothelial.,Endophial
+human,unspecified,Endothelial,EC_Cycling,PECAM1;CLDN5;FLT1,MKI67;CENPF;TOP2A,,user_xlsx_2026-10-11,,67,unverified,Spelling standardized from Endophial to Endothelial.,Endophial
+human,unspecified,Endothelial,EC_Tip,PECAM1;CLDN5;FLT1,PGF;LXN;CXCR4,,user_xlsx_2026-10-11,,68,unverified,Spelling standardized from Endophial to Endothelial.,Endophial
+human,unspecified,Endothelial,EC_Immature,PECAM1;CLDN5;FLT1,EDNRB;VWA1;APLNR,,user_xlsx_2026-10-11,,69,unverified,Spelling standardized from Endophial to Endothelial.,Endophial
+human,unspecified,Endothelial,EC_Veins,PECAM1;CLDN5;FLT1,ACKR1;VCAM1;CPE,,user_xlsx_2026-10-11,,70,unverified,Spelling standardized from Endophial to Endothelial.,Endophial
+human,unspecified,Endothelial,EC_Arteries,PECAM1;CLDN5;FLT1,GJA5;GJA4;FBLN5,,user_xlsx_2026-10-11,,71,unverified,Spelling standardized from Endophial to Endothelial.,Endophial
+human,unspecified,Endothelial,EC_Capillaries,PECAM1;CLDN5;FLT1,KDR;HPGD;CA4,,user_xlsx_2026-10-11,,72,unverified,Spelling standardized from Endophial to Endothelial.,Endophial
+human,unspecified,Endothelial,EC_Pericyte_like,PECAM1;CLDN5;FLT1,KCNJ8;ABCC9;PDGFRB,,user_xlsx_2026-10-11,,73,needs_review,Spelling standardized from Endophial to Endothelial. Endothelial parent markers conflict with pericyte-like KCNJ8/ABCC9/PDGFRB; assess doublets or reannotation.,Endophial
+human,unspecified,Pericyte,Pericyte_CD36,KCNJ8;ABCC9;PDGFRB,CD36;THY1;STEAP4,,user_xlsx_2026-10-11,,74,unverified,,Pericyte
+human,unspecified,Pericyte,Pericyte_LAMC3,,LAMC3;KCNK3;ADARB2,,user_xlsx_2026-10-11,,75,needs_review,Major-lineage marker column is blank in source.,Pericyte
+human,unspecified,SMC,SMC_MYH11,ACTA2;TAGLN;MYH11,ITGA8;ELN;DES,,user_xlsx_2026-10-11,,76,unverified,,SMC
+human,unspecified,SMC,SMC_SEMA3C,,SEMA3C;KCNMA1;BCHE,,user_xlsx_2026-10-11,,77,needs_review,Major-lineage marker column is blank in source.,SMC
