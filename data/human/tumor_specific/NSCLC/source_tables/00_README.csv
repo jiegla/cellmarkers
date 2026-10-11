@@ -1,0 +1,10 @@
+A single-cell atlas reveals immune heterogeneity in anti-PD-1-treated non-small cell lung cancer,
+,
+Scope,"This workbook extracts the immune-cell annotation markers explicitly shown in the uploaded PDF: major-type canonical markers (Methods), all 51 immune subtypes (Fig. 1D), marker dotplots (Fig. S2B-F), and explicit marker statements in the main text."
+Important scope limit,"The paper states that full cluster-specific FindMarkers results are in Table S2. That supplementary table is not embedded in the uploaded PDF. Therefore this file is complete for the marker genes displayed/explicitly described in the PDF, but it is not a reproduction of every DEG in Table S2."
+Hierarchy,51 immune subtypes = 24 T/NK (6 NK/γδT/ILC + 9 CD8 + 9 CD4) + 10 B/plasma + 17 myeloid.
+Sample context,Post-neoadjuvant anti-PD-1 + chemotherapy NSCLC; only CD45+ immune cells were retained for the atlas.
+DOI,https://doi.org/10.1016/j.cell.2025.03.018
+GEO,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243013
+Code repository,https://github.com/zwj-tina/neoadjuvant-treatment-of-NSCLC
+Naming note,"For machine-friendly data labels, underscores are used. The cDC3 cluster in the PDF corresponds to mDC_LAMP3 in the public analysis metadata/repository."

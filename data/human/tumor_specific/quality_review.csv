@@ -1,0 +1,33 @@
+dataset,source_row,subtype,concern
+NSCLC,2,CD8T_NK_like_FGFBP2,NK-like CD8 T: distinguish CD3/TCR-positive T from NK by expression and TCR evidence.
+NSCLC,27,Bm_CD74,"CD74/B2M are broad antigen-presentation genes, not unique B-memory markers."
+NSCLC,47,Mφ_VCAN,VCAN/FCN1/S100A9 suggests monocyte-like phenotype; review macrophage label.
+TET,2,T_DN,Defining markers include composite or expression-level descriptions; consult raw final dictionary.; Identity requires coordinated multi-gene expression; not a standalone marker list.
+TET,3,T_DP,Identity requires coordinated multi-gene expression; not a standalone marker list.
+TET,4,T_Cycling_DNDP,Defining markers include composite or expression-level descriptions; consult raw final dictionary.; Identity requires coordinated multi-gene expression; not a standalone marker list.
+TET,13,CD8_TRM,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,14,gdT,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,15,B_Naive,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,16,B_Memory,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,17,B_GC,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,18,Plasma_ASC,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,20,NKT_like,Defining markers include composite or expression-level descriptions; consult raw final dictionary.; Identity requires coordinated multi-gene expression; not a standalone marker list.
+TET,24,Macrophage_NLRP3,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,25,cDC1,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,27,pDC,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,28,migDC_LAMP3,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,29,cTEC_like,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,30,mTEC_canonical,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,31,mTEC_KRT14_17,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,32,mTEC_CHI3L1,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,33,mTEC_GNB3_tuft,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,34,nmTEC_neuromuscular,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,35,Myoid_TEC,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,36,Neuroendocrine_TEC,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,37,TET_TEC,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,38,TC_Carc_TEC_1,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,39,TC_Carc_TEC_2,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,40,CDH3_malignant,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,41,FB_CXCL12,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,42,FB_CLU,Defining markers include composite or expression-level descriptions; consult raw final dictionary.
+TET,44,FB_medullary_CCL2_MHCII,Defining markers include composite or expression-level descriptions; consult raw final dictionary.; Identity requires coordinated multi-gene expression; not a standalone marker list.

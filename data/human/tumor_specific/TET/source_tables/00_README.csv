@@ -1,0 +1,17 @@
+TET / Thymic Carcinoma Single-cell Marker Reference,,,,,,
+,,,,,,
+Scope,"Markers were extracted from the 5 uploaded papers. The workbook prioritizes markers explicitly stated in text, figure labels/dot plots, or clearly named marker-defined clusters.",,,,,
+Purpose,Literature reference for major-cell annotation and subcluster annotation in thymoma / thymic carcinoma scRNA-seq.,,,,,
+Marker format,"Gene symbols are semicolon-separated. These are representative annotation markers, not exhaustive differential-expression gene lists.",,,,,
+Confidence,High = explicitly stated or clearly shown in a labeled marker plot; Moderate = figure/cluster-supported but the source provides a less unique marker definition.,,,,,
+Important caution,"Do not assign a cell type from a single marker alone. Check co-expression, exclusion markers, sample/patient distribution, QC/doublets, and biological context.",,,,,
+TET/TC caution,"Tumor TEC states can deviate from normal cTEC/mTEC programs. For malignant epithelial annotation, combine epithelial markers with CNV/aneuploidy inference when feasible.",,,,,
+Supplement limitation,"Direder 2026 places deep subclustering of most non-TEC/non-fibroblast lineages in supplementary material. Therefore, detailed immune-subtype markers in this workbook are mainly supported by Yasumizu 2024 / Yasumizu 2022 / Xin 2022.",,,,,
+,,,,,,
+,,,,,,
+Short name,Paper,Journal,Year,DOI / URL,Scope,Key evidence location
+Feng 2026,Multi-Omics Integration Identifies a CDH3-Associated Malignant Epithelial State and Immunosuppressive Niche to Predict Prognosis in Thymic Epithelial Tumors,Advanced Science,2026,https://doi.org/10.1002/advs.77153,TET multi-omics; scRNA re-analysis; malignant epithelial states and immune/stromal subsets,Main text §2.1–2.3; Fig. 1B; Fig. 2; Fig. 4
+Direder 2026,A single-cell atlas revealing cellular heterogeneity across healthy and diseased human thymus,Nature Communications,2026,https://doi.org/10.1038/s41467-026-72760-7,"453,727 cells; healthy thymus, TH, TET-A/AB/B/C/MNT; detailed TEC and fibroblast subclustering",Main text Results; Fig. 1–4
+Xin 2022,The immune landscape of human thymic epithelial tumors,Nature Communications,2022,https://doi.org/10.1038/s41467-022-33170-7,"TET immune landscape, T-cell development, TCR, seven epithelial/TEC-like tumor-cell states",Fig. 2–7; main text epithelial and T-cell sections
+Yasumizu 2022,Myasthenia gravis-specific aberrant neuromuscular gene expression by medullary thymic epithelial cells in thymoma,Nature Communications,2022,https://doi.org/10.1038/s41467-022-31951-8,"MG-thymoma scRNA-seq; TEC, stromal, myeloid, B-cell and T-cell states; nmTEC discovery",Fig. 2–5; main text TEC/myeloid/B-cell sections
+Yasumizu 2024,Spatial transcriptomics elucidates medulla niche supporting germinal center response in myasthenia gravis-associated thymoma,Cell Reports,2024,https://doi.org/10.1016/j.celrep.2024.114677,"Spatial transcriptomics plus integrated thymoma scRNA reference (113,948 cells, 50 clusters)",Main text; Supplementary Fig. S5 (single-cell atlas)

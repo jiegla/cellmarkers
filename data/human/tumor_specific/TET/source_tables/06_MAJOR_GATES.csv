@@ -1,0 +1,10 @@
+major,positive_gate,negative_gate,audit_note
+T_cell,CD3D; CD3E; TRBC1/2,MS4A1/CD79A; MZB1/JCHAIN; LYZ/C1QC; EPCAM/KRT; PECAM1/VWF,"If cytotoxic NKG7/GNLY is high, distinguish T from NK using CD3/TRBC."
+B_cell,MS4A1; CD79A/B; CD19,CD3D/E; TRBC1/2; MZB1/JCHAIN-high; LYZ/C1QC; EPCAM,Plasma/ASC should be separated even when derived from B lineage.
+Plasma,MZB1; XBP1; JCHAIN,CD3D/E; LYZ/C1QC; EPCAM; PECAM1,MS4A1 can be low/absent; immunoglobulin genes alone are insufficient because of ambient RNA.
+NK_T,NKG7; GNLY; PRF1; XCL1,MS4A1; MZB1; LYZ/C1QC; EPCAM,CD3/TRBC positive -> NKT/T; CD3/TRBC absent/low -> NK.
+Myeloid,LYZ; LST1; AIF1 and/or DC-specific HLA/CD1C/CLEC genes,CD3D/E; MS4A1; EPCAM/KRT; PECAM1/VWF,"Recluster before annotation; macrophage, monocyte and DC states are biologically distinct."
+Epithelial,EPCAM; KRT8/KRT19; CLDN4,PTPRC; CD3D/E; MS4A1; LYZ/C1QC; PECAM1/VWF,"For malignant/TET-specific states, CNV/aneuploidy is supportive and preferable where available."
+Fibroblast,LUM; CCDC80; FN1; PDGFRA and subtype markers,PTPRC; EPCAM/KRT; PECAM1/VWF; RGS5-high,TET-FB is an ECM/TGF-beta-rich disease-associated state.
+Endothelial,PECAM1; VWF; RAMP2,PTPRC; EPCAM/KRT; LUM/CCDC80; RGS5-high,Separate from mural/pericyte populations.
+Mural,RGS5; PDGFRB; ACTA2; MCAM; MYL9,PECAM1/VWF-high; PTPRC; EPCAM/KRT,Use RGS5/PDGFRB/MCAM to distinguish from fibroblast and endothelial cells.

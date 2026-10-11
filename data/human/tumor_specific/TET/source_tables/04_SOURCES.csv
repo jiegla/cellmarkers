@@ -1,0 +1,6 @@
+Short name,Year,Journal,DOI / URL,Why useful for annotation,Main marker-rich sections
+Feng 2026,2026,Advanced Science,https://doi.org/10.1002/advs.77153,Explicit major-lineage markers; five CopyKAT-defined malignant epithelial states; CDH3+ tumor–M2 niche.,§2.1–2.3; Fig. 1B; Fig. 4
+Direder 2026,2026,Nature Communications,https://doi.org/10.1038/s41467-026-72760-7,"Large thymus/TET atlas; TET_TEC, Carc_TEC_1/2 and TET_FB are especially useful for TC/TET annotation.",Fig. 1–4; TEC and FB Results sections
+Xin 2022,2022,Nature Communications,https://doi.org/10.1038/s41467-022-33170-7,Classic TET immune atlas; T-cell developmental states and seven epithelial tumor-cell/TEC-like states.,Fig. 2–7; epithelial origin section
+Yasumizu 2022,2022,Nature Communications,https://doi.org/10.1038/s41467-022-31951-8,"MG-thymoma atlas; nmTEC, cTEC/mTEC, cDC2, B-cell GC biology and stromal markers.",Fig. 2–5; TEC/myeloid/B-cell sections
+Yasumizu 2024,2024,Cell Reports,https://doi.org/10.1016/j.celrep.2024.114677,"Integrated 113,948-cell thymoma reference; Supplementary Fig. S5 provides broad subtype marker dot plots.",Main text + Supplementary Fig. S5

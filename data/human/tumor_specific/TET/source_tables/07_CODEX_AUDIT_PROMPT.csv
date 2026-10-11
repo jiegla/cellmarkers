@@ -1,0 +1,22 @@
+section,instruction
+Purpose,Use 05_FINAL_DICT_4COL and 06_MAJOR_GATES to audit every existing cluster annotation against cluster marker tables (Top20/Top50/Top100).
+Input expectation,"For each cluster, use current major label, current subtype label, Top20/Top50/Top100 markers, number of cells, number of patients/samples, and any existing QC/doublet flags."
+Step 1 — major gate,"First test whether the cluster fits its current major lineage using 06_MAJOR_GATES. If strong markers from another lineage dominate, set decision = REASSIGN_MAJOR."
+Step 2 — subtype scoring,"Within the accepted major lineage, compare against every subtype in 05_FINAL_DICT_4COL. Prioritize coherent multi-gene programs over a single gene."
+Heuristic score,"Optional audit score: +3 per defining marker in Top20, +2 in Top50, +1 in Top100; -3/-2/-1 for exclusion markers in Top20/50/100. Treat this only as a ranking heuristic, not a biological/statistical test."
+Minimum evidence,"Prefer >=2 defining markers, including at least one relatively subtype-specific marker. A single marker should not be sufficient unless it is highly specific and the rest of the program is concordant."
+Conflict rule,"If >=2 strong exclusion markers from an incompatible lineage appear in Top20/Top50, mark CONFLICT and inspect for doublet, ambient RNA, or incorrect major assignment."
+Tumor epithelial rule,"For TET_TEC / TC_Carc_TEC_1 / TC_Carc_TEC_2 / CDH3_malignant, first require a convincing epithelial program. Use CNV/aneuploidy evidence when available; do not call malignancy from one tumor-associated marker alone."
+T/NK rule,NKG7/GNLY/PRF1 alone do not distinguish NK from cytotoxic T. Use CD3D/E/TRBC to distinguish pure NK from T/NKT.
+Plasma rule,High immunoglobulin transcripts alone can reflect ambient RNA. Require MZB1/XBP1/JCHAIN or a coherent ASC/plasmablast program.
+DC rule,"Do not merge pDC/cDC1/cDC2/migDC simply because all express HLA genes. Use LILRA4/JCHAIN (pDC), CLEC9A (cDC1), CD1C/FCER1A/CLEC10A (cDC2), LAMP3/CCR7/FSCN1 (migDC)."
+Macrophage rule,"Avoid forcing M1/M2 labels from one or two genes. Prefer Macrophage_C1QC / Macrophage_NLRP3, and use M2 only as an optional state description when supported by broader evidence."
+Fibroblast rule,TET-associated ECM fibroblasts should show TWIST1/ITGA11/SDC1 with ECM genes such as CTHRC1/LRRC15/COL11A1/MMP11; distinguish from RGS5/PDGFRB mural cells.
+Patient/sample robustness,"Downgrade confidence if a proposed subtype is driven almost entirely by one sample/patient, unless the subtype is known to be rare or pathology-specific."
+Decision labels,"KEEP = current annotation strongly supported; RENAME = same major, better subtype name; REASSIGN_MAJOR = wrong major lineage; EXCLUDE = doublet/low-quality/contaminated; UNCERTAIN = insufficient or conflicting evidence."
+Required output columns,major_original; subtype_original; major_recommended; subtype_recommended; decision; defining_hits; exclusion_hits; confidence; reason; uncertainty; dominant_sample_fraction; suggested_action
+Naming policy,Use the exact subtype names from 05_FINAL_DICT_4COL. Do not invent new names unless no listed subtype fits; in that case keep a conservative descriptive label and mark UNCERTAIN.
+Important,"Absence of a marker in scRNA-seq is weak negative evidence because of dropout. Exclusion markers are most useful when they are positively and strongly expressed, not merely when defining markers are absent."
+,
+Provenance note,Defining markers are condensed from the five uploaded thymoma/TET papers. Exclusion markers are audit-oriented cross-lineage negatives derived from the same papers' major-lineage marker programs; they are not claimed to be literal exclusion lists published by the authors.
+Use note,"This dictionary intentionally merges many paper-specific microstates to improve reproducibility across datasets. The original, more granular marker table remains in 02_SUBTYPE_MARKERS."

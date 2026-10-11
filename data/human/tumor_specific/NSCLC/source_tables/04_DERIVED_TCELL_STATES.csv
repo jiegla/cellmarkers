@@ -1,0 +1,5 @@
+Derived state,Definition,Positive / enriched markers,Relative negative / reduced markers,Notes
+Texp (precursor exhausted T cells),Defined among Tex-relevant cells as cells sharing TCRs with expanded terminal Tex but not annotated as expanded terminal Tex,GZMK; IL7R increased,Checkpoint genes reduced relative to expanded terminal Tex,Not one of the 51 expression clusters; a TCR-informed derived state.
+Expanded terminal Tex,Expanded CD8+ T cells annotated as CD8T_terminal_Tex_LAYN with ≥3 cells per clonotype,LAYN; ENTPD1; PDCD1; CXCL13; HAVCR2; TIGIT; LAG3,Higher checkpoint program than Texp,Used as proxy for tumor-antigen-specific CD8+ T cells in the paper.
+Tex-relevant cells,All CD8+ T cells sharing TCRs with expanded terminal Tex,TCR-defined rather than purely transcript-defined,,Contains expanded terminal Tex plus Texp.
+Expanded CCR8+ Treg,CCR8+ Treg clonotype with ≥3 detected cells,CCR8; FOXP3; IL2RA; CTLA4; TNFRSF4; TNFRSF18,,TCR expansion-based analytical state.

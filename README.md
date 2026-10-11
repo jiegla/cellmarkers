@@ -60,3 +60,26 @@ validate_cellmarkers("data/human/reference/markers.csv")
 初始数据：用户上传的 `附件 celltype markers整理.xlsx`，Sheet1 的 A1:D77。  
 当前版本仅保留表格内容的 CSV 形式；如果需要原始工作簿的 Excel 样式、批注等，请另外保存原 XLSX。  
 新增/修改需保留 `source_reference` (DOI/PMID/URL)、原始命名和可审计的理由。详见 [SCHEMA](docs/SCHEMA.md)。
+
+## 肿瘤专题数据（2026-10-11 新增）
+
+| 专题 | 规范化 marker 表 | 内容 | 附加来源材料 |
+| --- | --- | --- | --- |
+| **NSCLC immune** | [NSCLC/markers.csv](data/human/tumor_specific/NSCLC/markers.csv) | 51 个免疫细胞亚群，Liu et al., Cell 2025 | [7 个原始工作表的 CSV](data/human/tumor_specific/NSCLC/source_tables/) |
+| **TET**（胸腺瘤/胸腺癌） | [TET/markers.csv](data/human/tumor_specific/TET/markers.csv) | 45 条最终注释字典；另保存 77 条文献亚群参考 | [8 个原始工作表的 CSV](data/human/tumor_specific/TET/source_tables/) |
+
+- [各数据集索引和适用范围](docs/DATASETS.md)
+- [NSCLC 证据与使用说明](data/human/tumor_specific/NSCLC/README.md)
+- [TET 证据与使用说明](data/human/tumor_specific/TET/README.md)
+- [整理审计报告](docs/NEW_DATASETS_AUDIT_2026-10-11.md)；[待复核行列表](data/human/tumor_specific/quality_review.csv)
+
+**来源注意：** 当前 NSCLC 数据针对新辅助抗 PD-1 联合化疗后的 NSCLC 免疫细胞。TET 是胸腺瘤、胸腺癌及正常胸腺上皮状态的多文献整合参考，不能直接当成胸腺癌专属数据。原始每张 Sheet 的单元格值保留在对应 CSV 中，但 Excel 样式、批注和内嵌对象不包含在 CSV 归档中。原 `data/human/reference/` 未修改。
+
+```r
+source("scripts/read_markers.R")
+nsclc <- read_cellmarkers("data/human/tumor_specific/NSCLC/markers.csv")
+tet <- read_cellmarkers("data/human/tumor_specific/TET/markers.csv")
+source("scripts/validate_markers.R")
+validate_cellmarkers("data/human/tumor_specific/NSCLC/markers.csv")
+validate_cellmarkers("data/human/tumor_specific/TET/markers.csv")
+```

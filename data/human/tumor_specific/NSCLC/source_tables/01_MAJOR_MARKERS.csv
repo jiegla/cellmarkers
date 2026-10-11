@@ -1,0 +1,6 @@
+Paper compartment,Canonical / core markers,Supporting subtype markers,No. subtypes,Evidence,Notes
+NK / γδ T / ILC compartment,NKG7 (NK); CD3D/CD3G (T/γδ T); KIT (ILC3),NK: GNLY/KLRD1; γδ T: TRDV1/TRDV2; ILC3: AREG/FXYD5,6 subtypes,Fig. 1D; Fig. S2B,"This is a mixed compartment in the paper, then resolved into NK, NK-like CD8 T, γδ T and ILC3."
+CD8+ T cells,CD3D; CD3G; CD8A,IL7R/TCF7/GZMK (memory/early activation); PDCD1/CXCL13/checkpoints (Tex),9 subtypes,Fig. 1D; Fig. S2C,"Includes memory, effector-memory, TRM, exhausted, terminally exhausted and proliferating states."
+CD4+ T cells,CD3D; CD3G; CD4,CCR7/SELL/LEF1 (naive); CXCL13/PDCD1 (Tfh/Th1-like); FOXP3/IL2RA/CTLA4 (Treg),9 subtypes,Fig. 1D; Fig. S2D,"Includes Tfh, Th1-like, memory/effector-memory, naive and three Treg states."
+B / plasma cells,CD79A; CD19 (B); MZB1 (plasma),"TCL1A/FCER2 (naive B); FCRL4, TNF/TNFSF9 etc. (memory/activated B); RGS13 (GC B); XBP1/SSR4 (plasma)",10 subtypes,Fig. 1D; Fig. S2E,"Paper resolves proliferating B, multiple memory B states, naive B, GC B and plasma cells."
+Myeloid cells,CD68; CD14,"Macrophage/monocyte markers + mast, neutrophil and DC-specific programs",17 subtypes,Fig. 1D; Fig. S2F,"Includes mast cells, 11 macrophage states, neutrophils, cDC1, cDC2, cDC3/migratory DC-like and pDC."

@@ -1,0 +1,52 @@
+Compartment,Paper display label,Data / machine label,Defining markers,Additional supporting markers,Contrast / distinguishing feature,Evidence,Annotation note
+NK / γδ T / ILC,CD8T_NK-like_FGFBP2,CD8T_NK_like_FGFBP2,CD3D; CD8A; FGFBP2,GNLY; KLRD1; PRF1; GZMB; detectable TCR,PDCD1 low/absent; differs from classical NK by T-cell program,Fig. S2B; main text Fig. 3,Main text explicitly describes co-expression of CD3D/CD8A and NK markers GNLY/KLRD1; PRF1/GZMB high; PDCD1 not expressed.
+NK / γδ T / ILC,NK_CD16hi_FGFBP2,NK_CD16hi_FGFBP2,FGFBP2; TYROBP; FCGR3A; PRF1,GZMB; FCER1G,Higher FCGR3A/CD16 than NK_CD16low_GZMK,Fig. S2B; main text Fig. 3,Corresponds to classical CD56dimCD16hi NK-like state in the paper.
+NK / γδ T / ILC,NK_CD16low_GZMK,NK_CD16low_GZMK,GZMK; FCER1G; XCL1; TYROBP,AREG,Low FCGR3A/CD16 relative to NK_CD16hi_FGFBP2,Fig. S2B; main text Fig. 3,Corresponds to classical CD56brightCD16lo NK-like state in the paper.
+NK / γδ T / ILC,T_gdT_TRDV1,T_gdT_TRDV1,TRDV1; TRGV5; IL32,CD3D; GZMK,Not a conventional αβ CD8/CD4 cluster,Fig. S2B,γδ T state defined by TRDV1/TRGV5.
+NK / γδ T / ILC,T_gdT_TRDV2,T_gdT_TRDV2,TRDV2; TRGV9; IL32,CD3D; GZMK,Not a conventional αβ CD8/CD4 cluster,Fig. S2B,γδ T state defined by TRDV2/TRGV9.
+NK / γδ T / ILC,ILC3_KIT,ILC3_KIT,KIT; AREG; FXYD5,FCER1G; XCL1,Lacks strong CD3/TCR program,Fig. S2B,ILC3-like state.
+CD8+ T,CD8T_ISG15,CD8T_ISG15,ISG15; IFIT2; IFIT3,interferon-stimulated program,,Fig. S2C,ISG-high CD8 state.
+CD8+ T,CD8T_MAIT_KLRB1,CD8T_MAIT_KLRB1,KLRB1; SLC4A10; TMIGD2,IL7R,,Fig. S2C,MAIT-like CD8 T state.
+CD8+ T,CD8T_Tm_IL7R,CD8T_Tm_IL7R,IL7R; TOB1; TCF7,memory/early-activation program,Low exhaustion/checkpoint program,Fig. S2C; main text,Paper notes IL7R/TCF7/GZMK as early activation genes enriched in TIME-Teff-associated CD8 states.
+CD8+ T,CD8T_Tem_GZMK+NR4A1+,CD8T_Tem_GZMK_NR4A1,GZMK; NR4A1; TNFSF9,GZMA; CD74,,Fig. S2C,Effector-memory state with NR4A1 activation program.
+CD8+ T,CD8T_Tem_GZMK+GZMH+,CD8T_Tem_GZMK_GZMH,GZMK; GZMH; GZMA,CD74,,Fig. S2C,Cytotoxic effector-memory CD8 state.
+CD8+ T,CD8T_Trm_ZNF683,CD8T_Trm_ZNF683,ZNF683; CXCR6; XCL1; XCL2,GZMH; GZMA,,Fig. S2C,Resident-memory-like CD8 state.
+CD8+ T,Tex,CD8T_Tex_CXCL13,PDCD1; CXCL13; HAVCR2; TIGIT; LAG3,GZMH; GZMA,Less LAYN/ENTPD1 and lower checkpoint intensity than terminal Tex,Fig. S2C; main text,Paper states Tex and terminal Tex uniquely express CXCL13 and high checkpoint molecules.
+CD8+ T,terminal Tex,CD8T_terminal_Tex_LAYN,PDCD1; CXCL13; HAVCR2; TIGIT; LAG3; LAYN; ENTPD1,GZMH; GZMA,More terminal/exhausted than Tex,Fig. S2C; main text,Main text explicitly says terminal Tex has even higher checkpoint expression and uniquely expresses LAYN and ENTPD1.
+CD8+ T,CD8T_prf_MKI67,CD8T_prf_MKI67,MKI67; STMN1,proliferation program,,Fig. S2C,Proliferating CD8 T-cell state.
+CD4+ T,Tfh,CD4T_Tfh_CXCL13,CXCL13; PDCD1; TCF7,IL7R; LEF1,,Fig. S2D,Paper display label is Tfh; public analysis metadata uses CD4T_Tfh_CXCL13.
+CD4+ T,CD4T_Th1-like_CXCL13,CD4T_Th1_like_CXCL13,CXCL13; PDCD1; IFNG; LAG3; CXCR6,CTLA4,,Fig. S2D,CXCL13-producing Th1-like CD4 state.
+CD4+ T,CD4T_Tem_GZMA,CD4T_Tem_GZMA,GZMA; GZMK; ANXA1,IL7R; CXCR6,,Fig. S2D,Effector-memory CD4 state.
+CD4+ T,CD4T_Tm_ANXA1,CD4T_Tm_ANXA1,ANXA1; IL7R,TCF7; CCR7/SELL-low-to-moderate,,Fig. S2D,Memory CD4 state.
+CD4+ T,CD4T_Tm_XCL1,CD4T_Tm_XCL1,XCL1; XCL2; ANXA1; IL7R,GZMA,,Fig. S2D,XCL1/XCL2-expressing memory CD4 state.
+CD4+ T,CD4T_Tn_CCR7,CD4T_Tn_CCR7,CCR7; SELL; LEF1; TCF7,IL7R,Low cytotoxic/checkpoint program,Fig. S2D,Naive CD4 state.
+CD4+ T,CCR8− Treg,CD4T_Treg_FOXP3,FOXP3; CTLA4; IL2RA,SELL; LEF1,CCR8/TNFRSF4/TNFRSF18 lower than CCR8+ Treg,Fig. S2D; main text,Paper display label CCR8− Treg; public analysis metadata uses CD4T_Treg_FOXP3.
+CD4+ T,CCR8+ Treg,CD4T_Treg_CCR8,CCR8; TNFRSF4; TNFRSF18; FOXP3; IL2RA; CTLA4,CXCR3,Higher suppressive/Treg program than CCR8− Treg,Fig. S2D; main text Fig. 5/S5,Main text explicitly states higher TNFRSF4/TNFRSF18/CCR8 and highest FOXP3/IL2RA/CTLA4; CCR8+ Tregs also express CXCR3.
+CD4+ T,prolif Treg,CD4T_Treg_MKI67,MKI67; STMN1; FOXP3; CTLA4; IL2RA,CCR8; TNFRSF4; TNFRSF18; CXCR3,,Fig. S2D; main text Fig. 5/S5,Proliferating Treg state; main text notes proliferating Tregs express CXCR3.
+B / plasma,B_prf_MKI67,B_prf_MKI67,MKI67; STMN1; HMGB2,,,Fig. S2E,Proliferating B-cell state.
+B / plasma,Bm_CD74,Bm_CD74,CD74; MALAT1; B2M,,,Fig. S2E,Memory B state; CD74-high.
+B / plasma,Bm_FCRL4,Bm_FCRL4,FCRL4; RGS1; DUSP2,,,Fig. S2E,FCRL4+ memory/activated B state.
+B / plasma,Bm_MT2A,Bm_MT2A,MT2A; MTF1; MT1X,,,Fig. S2E,Metallothionein/stress-associated memory B state.
+B / plasma,Bm_PDE4D,Bm_PDE4D,PDE4D; CRIP1; EEF1A1,,,Fig. S2E,PDE4D-high memory B state.
+B / plasma,Bm_TNF,Bm_TNF,TNF; DUSP1; IER2,,,Fig. S2E,TNF/activation-associated memory B state.
+B / plasma,Bm_TNFSF9,Bm_TNFSF9,TNFSF9; NR4A1; NR4A2,,,Fig. S2E,Activated TNFSF9/NR4A memory B state.
+B / plasma,Bn_TCL1A,Bn_TCL1A,TCL1A; FCER2; YBX3,,,Fig. S2E,Naive B-cell state.
+B / plasma,GCB_RGS13,GCB_RGS13,RGS13; ACTG1; ACTB,,,Fig. S2E,Germinal-center B-cell state; RGS13 is the most subtype-informative marker among the plotted triplet.
+B / plasma,Plasma cell,Plasma_cell,MZB1; SSR4; XBP1,,,Fig. S2E,Plasma-cell / antibody-secreting state.
+Myeloid,Mast cell,Mast_cell,KIT; TPSAB1; CPA3,,,Fig. S2F,Mast-cell state.
+Myeloid,Mφ_CXCL2,Mφ_CXCL2,CXCL2; MMP19; CXCL3,,,Fig. S2F,CXCL2/CXCL3 inflammatory macrophage state.
+Myeloid,Mφ_CXCL10,Mφ_CXCL10,CXCL10; CXCL9; GBP1,,,Fig. S2F,IFN/chemokine-associated macrophage state.
+Myeloid,Mφ_DNAJB1,Mφ_DNAJB1,DNAJB1; HSPA6; HSPB1,,,Fig. S2F,Heat-shock/stress-associated macrophage state.
+Myeloid,Mφ_FCGR3A,Mφ_FCGR3A,FCGR3A; LILRB2; LST1,,,Fig. S2F,FCGR3A+ macrophage/monocyte-like state.
+Myeloid,Mφ_FOLR2,Mφ_FOLR2,FOLR2; SELENOP; SLC40A1,,,Fig. S2F,FOLR2+ tissue-resident-like macrophage state.
+Myeloid,Mφ_ISG15,Mφ_ISG15,ISG15; IFIT2; IFIT1,,,Fig. S2F,Interferon-stimulated macrophage state.
+Myeloid,Mφ_MARCO,Mφ_MARCO,MARCO; FABP5; APOC1,,,Fig. S2F,MARCO/APOC1 macrophage state.
+Myeloid,Mφ_MKI67,Mφ_MKI67,MKI67; STMN1; TOP2A,,,Fig. S2F,Proliferating macrophage state.
+Myeloid,Mφ_MMP9,Mφ_MMP9,MMP9; COL6A2; COL6A1,,,Fig. S2F,MMP9/ECM-associated macrophage state.
+Myeloid,Mφ_S100A10,Mφ_S100A10,S100A10; MT1M; MT1H,,,Fig. S2F,S100A10/metallothionein-associated macrophage state.
+Myeloid,Mφ_VCAN,Mφ_VCAN,VCAN; FCN1; S100A9,,,Fig. S2F,Inflammatory monocyte-like macrophage state.
+Myeloid,Neu_FCGR3B,Neu_FCGR3B,CSF3R; FCGR3B; CXCR2,,,Fig. S2F,Neutrophil state.
+Myeloid,cDC1,cDC1_CLEC9A,CLEC9A; BATF3; FLT3,,,Fig. S2F,Conventional type-1 dendritic cells.
+Myeloid,cDC2,cDC2_CD1C,CD1C; FCER1A; CD1E,,,Fig. S2F,Conventional type-2 dendritic cells.
+Myeloid,cDC3,mDC_LAMP3,LAMP3; CCR7; FSCN1,,,Fig. S2F; public analysis metadata,"Important naming note: PDF Fig. 1D/S2 labels this cluster cDC3, whereas the public analysis metadata/repository uses mDC_LAMP3; marker program is migratory/mature DC-like."
+Myeloid,pDC,pDC_LILRA4,LILRA4; GZMB; IL3RA,,,Fig. S2F,Plasmacytoid dendritic-cell state.

@@ -1,0 +1,4 @@
+Source,Name,URL,Use in this workbook
+Uploaded PDF,A single-cell atlas reveals immune heterogeneity in anti-PD-1-treated non-small cell lung cancer,https://doi.org/10.1016/j.cell.2025.03.018,Fig. 1D; Fig. S2B-F; Methods; main-text subtype descriptions
+GEO,GSE243013,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243013,Processed scRNA/TCR data and subtype annotations
+GitHub,zwj-tina/neoadjuvant-treatment-of-NSCLC,https://github.com/zwj-tina/neoadjuvant-treatment-of-NSCLC,Public analysis repository; used only to preserve machine-friendly subtype aliases such as mDC_LAMP3

@@ -38,3 +38,11 @@ UTF-8 CSV；**每行代表一个 major-subtype marker 参考条目**。第一行
 source("scripts/validate_markers.R")
 validate_cellmarkers("data/human/reference/markers.csv")
 ```
+
+### Newly imported tumor datasets
+
+- `NSCLC` contains 51 immune expression clusters from the Liu 2025 post-neoadjuvant anti-PD-1+chemotherapy study; names and evidence statements are traced in `source_tables/02_ALL_51_SUBTYPES.csv`.
+- `TET` contains 45 harmonized final-dictionary entries plus 77 separately indexed source-specific references. It is not restricted to thymic carcinoma; do not split it into `THYM`/`THYC` without sample-specific evidence.
+- Original workbook sheets are preserved as individual `source_tables/*.csv` with value-level provenance. They retain nuanced signs/intensities absent from the simplified canonical schema.
+- Composite annotations such as `TRBC1/2`, `CD4-low/negative`, `CNV`, `EPCAM/KRT epithelial program` are not independent gene symbols. Expanded tokens are suggested for lookup, **not HGNC-certified**.
+- TET's integrated final dictionary does not assign one publication to every record. Its per-row `source_reference` is therefore intentionally blank; citation links appear in `source_tables/04_SOURCES.csv`.

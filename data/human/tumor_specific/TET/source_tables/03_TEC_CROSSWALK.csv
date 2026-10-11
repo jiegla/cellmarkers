@@ -1,0 +1,13 @@
+Harmonized epithelial state,Representative markers,Supporting papers,Interpretation / use
+cTEC/cTEC-like,CCL25; PSMB11; PRSS16; CTSL; LY75,Xin 2022; Yasumizu 2022; Yasumizu 2024; Direder 2026,Positive-selection/cortical program; useful for B-type thymoma cortical-like states
+mTEC / medullary program,CLDN4; KRT7; AIRE; FEZF2,Yasumizu 2022; Yasumizu 2024; Xin 2022,Negative-selection/medullary program; splits into multiple tumor-associated states
+KRT14 mTEC-like / progenitor-like,KRT14; CLU; FN1; IGFBP5,Xin 2022; Direder 2026,Related to TET_TEC/progenitor-like states in integrated atlas
+CHI3L1 mTEC-like,CHI3L1; AIRE; FEZF2,Xin 2022; Yasumizu 2024; Direder 2026,Type-3/TET-C-related medullary-like state; Carc_TEC clusters share similarity
+GNB3 / tuft-like mTEC,GNB3; OVOL3; PLCB2; TRPM5,Xin 2022; Yasumizu 2024,Type-1 TET-associated epithelial program
+nmTEC / neuromuscular mTEC,GABRA5; KRT6; MAP2; NEFL; NEFM; RYR3,Yasumizu 2022; Yasumizu 2024,MG-thymoma-associated neuromuscular program
+MYOG / myoid TEC,MYOG; DES; TPM2; CHRNA1; TTN,Xin 2022; Direder 2026,Muscle-like TEC state; Direder notes TEC_myo_1 as prominent in TET-C
+CHGA / neuroendocrine-like TEC,CHGA; ASCL1; TUBB3; HES6,Xin 2022; Yasumizu 2024,Rare neuroendocrine-like TEC state
+TET_TEC,MAOA; RORA; GMDS; ERBB4; IGFBP7; SCPEP1,Direder 2026,TET-associated TEC absent/rare in healthy tissue
+Carc_TEC_1,DUSP2; CCL20; SOX18,Direder 2026,Carcinoma-specific epithelial state in TET-C
+Carc_TEC_2,CD177; PLAU; CA9; MUC1; MUC4,Direder 2026,Carcinoma-specific epithelial state in TET-C
+CDH3 malignant state,CDH3; MT1X; KRT15,Feng 2026,CopyKAT-defined malignant epithelial state; stem-like/EMT; spatially associated with M2 macrophages
