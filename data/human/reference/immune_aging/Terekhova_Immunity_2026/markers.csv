@@ -1,0 +1,10 @@
+species,tumor_type,major_type,subtype,major_markers,subtype_markers,exclusion_markers,source_id,source_reference,source_row,review_status,curation_notes,original_major_type
+human,PBMC,CD8_T,CD8_Tem_GZMK,CD3D;CD3E;CD8A,GZMK;GZMA;CCL5;NKG7,,Terekhova_Immunity_2026,10.1016/j.immuni.2026.09.012,,needs_review,"Article-defined aging-associated population; marker heatmap/source table extraction pending final verification",CD8+ Tem GZMK+
+human,PBMC,CD8_T,CD8_Tem_GZMB,CD3D;CD3E;CD8A,GZMB;PRF1;NKG7;FGFBP2;CTSW,,Terekhova_Immunity_2026,10.1016/j.immuni.2026.09.012,,needs_review,"Article-defined aging-associated population; marker heatmap/source table extraction pending final verification",CD8+ Tem GZMB+
+human,PBMC,CD8_T,CD8_Naive,CD3D;CD8A,CCR7;TCF7;LEF1;SELL,,Terekhova_Immunity_2026,10.1016/j.immuni.2026.09.012,,unverified,"Canonical immune reference marker",CD8+ Naive
+human,PBMC,NK,NK_CD56dim,NKG7;KLRD1;GNLY,FGFBP2;GZMB;PRF1,,Terekhova_Immunity_2026,10.1016/j.immuni.2026.09.012,,unverified,"Canonical immune reference marker",NK CD56dim
+human,PBMC,NK,NK_CD56bright,NKG7;KLRD1,IL7R;XCL1;XCL2;KLRC1,,Terekhova_Immunity_2026,10.1016/j.immuni.2026.09.012,,unverified,"Canonical immune reference marker",NK CD56bright
+human,PBMC,B_cell,B_Naive,CD79A;MS4A1;CD19,IGHD;TCL1A;CCR7,,Terekhova_Immunity_2026,10.1016/j.immuni.2026.09.012,,unverified,"Canonical immune reference marker",Naive B
+human,PBMC,Plasma,Plasma_cell,MZB1;JCHAIN;XBP1,IGHG;IGHA,,Terekhova_Immunity_2026,10.1016/j.immuni.2026.09.012,,unverified,"Canonical immune reference marker",Plasma cells
+human,PBMC,Myeloid,Classical_monocyte,LYZ;LST1;FCER1G,S100A8;S100A9;S100A10;CTSS,,Terekhova_Immunity_2026,10.1016/j.immuni.2026.09.012,,unverified,"Canonical immune reference marker",Classical monocytes
+human,PBMC,Myeloid,pDC,GZMB;GZMB;CLEC4C,LILRA4;TCF4;IL3RA,,Terekhova_Immunity_2026,10.1016/j.immuni.2026.09.012,,unverified,"Canonical immune reference marker",pDC
