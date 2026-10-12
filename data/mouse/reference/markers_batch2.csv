@@ -1,0 +1,19 @@
+species,organ_context,tumor_type,subtype,major_markers,subtype_markers,exclusion_markers,state_type,source_id,review_status,curation_notes
+mouse,pan_tissue,normal,CD4_Th1,Cd4;Cd3d;Trbc1,Tbx21;Ifng;Cxcr3,,activation,ImmGen,unverified,Th1 polarization state
+mouse,pan_tissue,normal,CD4_Th2,Cd4;Cd3d;Trbc1,Gata3;Il4;Il13,,activation,ImmGen,unverified,Th2 polarization state
+mouse,pan_tissue,normal,CD4_Th17,Cd4;Cd3d;Trbc1,Rorc;Il17a;Ccr6,,activation,ImmGen,unverified,Th17 polarization state
+mouse,pan_tissue,normal,Tfh,Cd4;Cd3d;Trbc1,Cxcr5;Pdcd1;Bcl6;Icos,,activation,ImmGen,unverified,Follicular helper T
+mouse,pan_tissue,normal,CD8_Tem,Cd8a;Cd8b1;Trbc1,Gzmk;Gzma;Ccl5,,memory,ImmGen,unverified,Effector memory CD8
+mouse,pan_tissue,normal,CD8_Trm,Cd8a;Cd8b1;Trbc1,Itgae;Cd69;Hobit;Znf683,,memory,Tabula_Muris_Senis,unverified,Tissue resident memory state
+mouse,pan_tissue,normal,MAIT,Trac;Cd8a,Slc4a10;Zbtb16;Klrk1;Nkg7,,lineage,ImmGen,unverified,MAIT-like cells
+mouse,pan_tissue,normal,Gamma_delta_T,Trdc;Cd3d;Cd3e,Trdc;Tcrg genes;Cd163l1,,lineage,ImmGen,unverified,Gamma delta T cells
+mouse,pan_tissue,normal,NK_CD27_high,Nkg7;Klrb1c;Klrk1,Cd27;Tcf7;Il7r,,lineage,ImmGen,unverified,Lymphoid NK maturation
+mouse,pan_tissue,normal,NK_CD11b_high,Nkg7;Klrb1c;Klrk1,Itgam;Gzmb;Prf1,,cytotoxicity,ImmGen,unverified,Mature cytotoxic NK
+mouse,pan_tissue,normal,ILC1,Il7r;Id2;Nkg7,Tbx21;Ifng;Klrk1,,lineage,ImmGen,unverified,Innate lymphoid cell
+mouse,pan_tissue,normal,ILC2,Il7r;Kit;Rora,Gata3;Il5;Il13,,lineage,ImmGen,unverified,Innate lymphoid cell
+mouse,pan_tissue,normal,ILC3,Il7r;Kit;Rorc,Rorc;Il22;Il17a,,lineage,ImmGen,unverified,Innate lymphoid cell
+mouse,pan_tissue,normal,Memory_B,Cd79a;Ms4a1;Cd19,Cd27;Aicda;Tnfrsf13b,,memory,Tabula_Muris,unverified,Memory B
+mouse,pan_tissue,normal,GC_B,Cd79a;Ms4a1;Cd19,Aicda;Mki67;Bcl6,,activation,ImmGen,unverified,Germinal center B
+mouse,pan_tissue,normal,Neutrophil,Ly6g;S100a8;S100a9,Csf3r;Fcgr3;Camp,,lineage,Tabula_Muris,validated,Neutrophil
+mouse,pan_tissue,normal,Mast_cell,Kit;Mcpt4;Cpa3,Tpsb2;Ms4a2;Cpa3,,lineage,Tabula_Muris,validated,Mast cell
+mouse,pan_tissue,normal,Eosinophil,Siglecf;Epx;Il5ra,Prg2;Epx;Siglecf,,lineage,Tabula_Muris,validated,Eosinophil
