@@ -1,0 +1,15 @@
+species,organ_context,tumor_type,subtype,major_markers,subtype_markers,exclusion_markers,state_type,source_id,review_status,curation_notes
+mouse,pan_tissue,normal,T_cell,Cd3d;Cd3e;Trbc1;Trbc2,Cd3d;Cd3e;Trbc1;Trbc2,,lineage,Tabula_Muris+ImmGen,validated,Canonical T lineage
+mouse,pan_tissue,normal,CD4_Naive,Cd4;Ccr7;Sell;Lef1;Tcf7,Cd4;Ccr7;Sell;Lef1;Tcf7,,lineage,ImmGen,validated,Naive CD4 T
+mouse,pan_tissue,normal,CD8_Naive,Cd8a;Cd8b1;Ccr7;Sell;Tcf7,Cd8a;Cd8b1;Ccr7;Sell;Tcf7,,lineage,ImmGen,validated,Naive CD8 T
+mouse,pan_tissue,normal,Treg,Cd4;Foxp3;Il2ra;Ctla4,Foxp3;Il2ra;Ctla4;Ikzf2,,lineage,ImmGen,validated,Regulatory T cell
+mouse,pan_tissue,normal,CD8_Exhausted,Cd8a;Cd3d;Pdcd1;Lag3;Tox,Pdcd1;Lag3;Havcr2;Tox;Ctla4,,exhaustion,Tabula_Muris_Senis,unverified,State marker rather than lineage
+mouse,pan_tissue,normal,NK,Nkg7;Klrb1c;Klrk1;Prf1,Nkg7;Klrb1c;Klrk1;Prf1;Gzmb,,lineage,ImmGen,validated,NK lineage
+mouse,pan_tissue,normal,Naive_B,Cd79a;Cd79b;Ms4a1;Cd19,Cd79a;Cd79b;Ms4a1;Cd19,,lineage,Tabula_Muris,validated,B lineage
+mouse,pan_tissue,normal,Plasma_cell,Jchain;Mzb1;Xbp1;Sdc1,Jchain;Mzb1;Xbp1;Sdc1,,lineage,Tabula_Muris,validated,Plasma cell
+mouse,pan_tissue,normal,Mono_Ly6C_high,Ly6c2;S100a8;S100a9;Lyz2,Ly6c2;S100a8;S100a9;Ccr2,,lineage,ImmGen,validated,Inflammatory monocyte
+mouse,pan_tissue,normal,Mac_C1QC,Adgre1;C1qa;C1qb;C1qc,C1qa;C1qb;C1qc;Apoe,,lineage,Tabula_Muris,validated,Resident macrophage
+mouse,pan_tissue,normal,Mac_TREM2,Adgre1;C1qa;Trem2;Apoe,Trem2;Apoe;Lgals3,,activation,Tabula_Muris_Senis,unverified,Activated macrophage state
+mouse,pan_tissue,normal,cDC1,H2-Ab1;Cd74;Xcr1;Clec9a,Xcr1;Clec9a;Batf3;Irf8,,lineage,ImmGen,validated,Conventional DC1
+mouse,pan_tissue,normal,cDC2,H2-Ab1;Cd74;Cd1c;Fcer1a,Cd1c;Fcer1a;Irf4,,lineage,ImmGen,validated,Conventional DC2
+mouse,pan_tissue,normal,pDC,Gzmb;Siglech;Clec4c;Il3ra,Siglech;Clec4c;Tcf4;Il3ra,,lineage,ImmGen,validated,Plasmacytoid DC
